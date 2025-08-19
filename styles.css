@@ -182,9 +182,11 @@ main {
 .phone-tablet-work-container-left p {
   text-indent: 0;
 }
-.work-container-left ul,
 .phone-tablet-work-container-left ul {
   margin: 0;
+}
+.work-container-left ul {
+  margin-left: 40px;
 }
 .work-container-left ul li,
 .phone-tablet-work-container-left ul li {
