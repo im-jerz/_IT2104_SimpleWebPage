@@ -1,0 +1,389 @@
+.root {
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  margin: 0;
+}
+main {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 950px;
+  height: auto;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.lines {
+  margin-top: 10px;
+  width: 90%;
+  height: 2px;
+  background-color: #949494;
+}
+/* right container kung saan andon yung mga image, name at iba pa. */
+.right-container {
+  background-color: #1c1c1c;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.img-txt-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prof-img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #d0d2d6;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.name {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 10px;
+}
+.position {
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+  margin-top: 5px;
+}
+.contacts-container {
+  margin-top: 10px;
+  width: 85%;
+}
+.titles-rightSide,
+.titles-leftSide {
+  color: white;
+  font-weight: 500;
+  margin: 0;
+}
+.contacts-sub-container {
+  width: 88%;
+  margin-left: auto;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.contacts-sub-container span {
+  margin-left: 5px;
+}
+.contacts-sub-container-icons {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+.socials-icons {
+  margin-left: 5px;
+}
+.tags-names,
+.phone-tablet-tags-names {
+  text-decoration: none;
+  color: white;
+}
+.phone-tablet-tags-names {
+  color: black;
+}
+.skills-tools-container {
+  margin-top: 15px;
+  width: 85%;
+}
+.list-container li {
+  color: white;
+  margin: 0;
+}
+
+/* left container kung saan andito ang ibat ibang information tungkol saakin */
+.left-container {
+  background-color: white;
+  flex-grow: 1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 25px;
+}
+
+.about-container-left,
+.work-container-left,
+.phone-tablet-work-container-left {
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+}
+.titles-leftSide {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.about-container-left p {
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+  margin-top: 5px;
+}
+.work-container-left,
+.phone-tablet-work-container-left {
+  margin-top: 20px;
+}
+.phone-tablet-txtt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work-container-left h3,
+.phone-tablet-work-container-left div h3,
+.phone-tablet-work-container-left h3 {
+  text-indent: 40px;
+  margin: 7px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.phone-tablet-work-container-left div h3,
+.phone-tablet-work-container-left h3 {
+  text-indent: 0;
+}
+.phone-tablet-work-container-left .phone-tablet-txtt h3 {
+  text-indent: 0;
+}
+.work-container-left h3 span,
+.phone-tablet-work-container-left div span {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.work-container-left p,
+.phone-tablet-work-container-left p {
+  text-indent: 40px;
+  margin: 5px 0 0 0;
+}
+.phone-tablet-work-container-left p {
+  text-indent: 0;
+}
+.work-container-left ul,
+.phone-tablet-work-container-left ul {
+  margin: 0;
+}
+.work-container-left ul li,
+.phone-tablet-work-container-left ul li {
+  margin-top: 7px;
+  text-align: justify;
+}
+
+/* Tablet */
+.tablet-hero-container {
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  background-color: #1c1c1c;
+}
+.tablet-prof-img {
+  height: 250px;
+  width: 250px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  border: 3px solid #d0d2d6;
+}
+.tablet-txt-container {
+  color: white;
+  flex-grow: 1;
+}
+.tablet-txt-subcontainer {
+  margin-left: 20px;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tablet-name {
+  margin: 0 0 7px 0;
+  font-size: 2rem;
+}
+.tablet-txt-container p {
+  margin: 0;
+  line-height: 2;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.tablet-txt-body-container {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.tablet-container_thrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  align-items: start;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.tablet-container_thrid-part {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  width: auto;
+}
+.tablet-container_thrid-part-title,
+.tablet-container_thrid-part-list {
+  flex: 0 0 auto;
+  width: auto;
+  margin: 0;
+}
+
+.phone-tablet-containers-row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+}
+.phone-tablet-work-container-left h3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Responsiveness */
+@media (max-width: 1200px) {
+  main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .right-container,
+  .left-container {
+    display: none;
+  }
+  main {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    flex-direction: column;
+  }
+  .tablet-hero-container,
+  .tablet-txt-body-container {
+    display: flex;
+  }
+}
+@media (max-width: 830px) {
+  .tablet-txt-container p {
+    font-size: 14px;
+  }
+  .tablet-name {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 755px) {
+  .tablet-prof-img {
+    height: 180px;
+    width: 180px;
+  }
+  .tablet-txt-container p {
+    font-size: 12px;
+  }
+  .tablet-name {
+    font-size: 1.5rem;
+  }
+  .phone-tablet-tags-names {
+    font-size: 0.9rem;
+  }
+  .tablet-container_thrid {
+    margin-top: 0;
+  }
+  .tablet-container_thrid-part {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 618px) {
+  .tablet-prof-img {
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .tablet-txt-container p {
+    font-size: 10px;
+  }
+  .tablet-name {
+    font-size: 1.3rem;
+    margin: 0 0 3px 0;
+  }
+  .phone-tablet-tags-names {
+    font-size: 0.7rem;
+  }
+  .iicons {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 512px) {
+  .tablet-hero-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .tablet-prof-img {
+    height: 250px;
+    width: 250px;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .tablet-txt-subcontainer {
+    align-items: center;
+  }
+  .tablet-txt-container p {
+    font-size: 0.8rem;
+  }
+  .tablet-name {
+    font-size: 1.8rem;
+    margin: 5px 0 3px 0;
+  }
+  .phone-tablet-containers-row {
+    flex-direction: column;
+  }
+  .phone-tablet-tags-names {
+    font-size: 1rem;
+  }
+  .iicons {
+    width: 24px;
+    height: 24px;
+  }
+}
